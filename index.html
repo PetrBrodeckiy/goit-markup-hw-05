@@ -48,7 +48,7 @@
         <section class="hero overlay">
             <div class="">
                 <h1 class="hero-title">Effective Solutions for Your Business</h1>
-                <button class="hero-btn" type="button">Order Service</button>
+                <button data-modal-open class="hero-btn" type="button">Order Service</button>
             </div>
         </section>
 
@@ -398,17 +398,17 @@
 
     <!-- Modal winfow-->
 
-    <div class="backdrop">
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button class="modal-btn" type="button">
-                <svg class="modal-icon" width="8" height="8">
+            <button data-modal-close class="modal-icon" type="button">
+                <svg class="" width="8" height="8">
                     <use href="./images/icon.svg#icon-close"></use>
                 </svg>
             </button>
         </div>
     </div>
 
-
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
